@@ -38,6 +38,7 @@ k8s-service:
   envVars:
     CONFIG_APP_NAME: frontend
     CONFIG_SECRETS_DIR: /mnt/secrets
+    CONFIG_APP_ENVIRONMENT_NAME: development
 
   scratchPaths:
     secrets: /mnt/secrets
